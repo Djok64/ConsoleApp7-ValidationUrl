@@ -1,9 +1,9 @@
-﻿using System;
+﻿using ConsoleApp7ValidationUrl.Controllers;
 
 class Program
 {
   static void Main(string[] args)
   {
-    Console.WriteLine("Hello, world!");
+    ConsoleController.Start();
   }
 }
